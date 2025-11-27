@@ -4,8 +4,8 @@ metadata:
   name: test-errors
 spec:
   containers:
-  - name: nginx
-    image: nxnxnxxn
-  # - name: almalinux
-  #   image: almalinux:9
-  #   command: ["sleep","1000"]
+  # - name: nginx
+  #   image: nxnxnxxn
+  - name: almalinux
+    image: almalinux:9
+  
