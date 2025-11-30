@@ -9,5 +9,7 @@ spec:
    env:
    - name: course
      value: k8
-   - name: triner
+   - name: trainer
      value: shiva
+   - name: joindevops
+     value: online
