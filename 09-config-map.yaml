@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+ name: pod-Config
+ labels:
+  env: dev
+data:
+  course: "devOps"
+  duration: "120hours"
+  mode: "online"
+  source: "joindevops"
