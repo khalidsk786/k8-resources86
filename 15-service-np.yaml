@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: service
+metadata:
+  name: nginx-np
+spec:
+  type: NodePort
+  selector:
+    project: roboshop
+    componet: frontend
+    environmnet: dev
+    purpose: node-port
+port:
+- protocal: TCP
+  port: 80 #serviceport
+  targetport: 80 #containerport
+

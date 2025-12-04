@@ -12,3 +12,4 @@ spec:
     envFrom:
     - configMapRef:
         name: pod-config
+

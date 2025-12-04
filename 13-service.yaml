@@ -1,0 +1,13 @@
+apiversion: v1
+kind: Pod
+metadata:
+  name: nginx
+spec:
+  selector:
+    project: "roboshop"
+    environmnet: "dev"
+    purpose: "frontend"
+  ports:
+    - protocal: TCP
+      port: 80 #service port
+      targetport: 80 #container port
